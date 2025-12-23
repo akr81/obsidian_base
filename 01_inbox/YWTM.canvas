@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"f9a7f1eab1527b68","type":"text","text":"次にやること","x":-80,"y":100,"width":250,"height":60,"color":"4"},
+		{"id":"31ecaac2c83f4f36","x":-80,"y":-100,"width":250,"height":60,"color":"4","type":"text","text":"メリット(目的・期待)"},
+		{"id":"12a8e72c3e70f014","type":"text","text":"やったこと","x":260,"y":100,"width":250,"height":60,"color":"3"},
+		{"id":"5a9faaff53dc7f4a","type":"text","text":"わかったこと","x":260,"y":-100,"width":250,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"68a6960bb684f570","fromNode":"f9a7f1eab1527b68","fromSide":"right","toNode":"12a8e72c3e70f014","toSide":"left"},
+		{"id":"c38747ebc805e992","fromNode":"5a9faaff53dc7f4a","fromSide":"left","toNode":"31ecaac2c83f4f36","toSide":"right"},
+		{"id":"2315b9a2709bb0d8","fromNode":"31ecaac2c83f4f36","fromSide":"bottom","toNode":"f9a7f1eab1527b68","toSide":"top"},
+		{"id":"f3252655689ce0b1","fromNode":"12a8e72c3e70f014","fromSide":"top","toNode":"5a9faaff53dc7f4a","toSide":"bottom"}
+	]
+}

@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.tags.contains("TIPS")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - tags
+    columnSize:
+      file.name: 212

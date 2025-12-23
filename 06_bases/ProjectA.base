@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.tags.contains("プロジェクトA")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Ticket
+      - Summary
+      - tags
+    columnSize:
+      file.name: 141
+      note.Ticket: 101
+      note.Summary: 193

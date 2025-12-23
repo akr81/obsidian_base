@@ -1,0 +1,53 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Kindleハイライト",
+	"behavior": "create",
+	"noteContentFormat": "\n<div style='font-family:serif; color:black; font-size:small; background:whitesmoke; padding:10px; width:auto; border-radius:3px; overflow:hidden; border:0;'><a href='{{selector:.kp-notebook-printable?href}}' target='_blank' style='font-family:sans-serif; color:navy;'><img src='{{selector:.kp-notebook-printable img?src|replace:\"SY160\":\"SY320\"}}' style='float:left; width:120px; margin:1px 12px;'><b> {{selector:h3.kp-notebook-metadata}}</b></a><br/><br/>{{selector:#annotation-scroller p.a-color-secondary}}</div clear=all>\n\n{{selector:#highlight,#note|nth:1:2|join:\"\\n\\n\"|blockquote|trim}}",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{selector:h3.kp-notebook-metadata}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{selector:.kp-notebook-printable?href}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{selector:#annotation-scroller p.a-color-secondary}}",
+			"type": "multitext"
+		},
+		{
+			"name": "LastAnnotated",
+			"value": "{{selector:#kp-notebook-annotated-date|first|split:\\\" \\\"|first|date:(\\\"YYYY-MM-DD\\\",\\\"YYYY年MM月DD日\\\")}}",
+			"type": "text"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		},
+		{
+			"name": "image",
+			"value": "{{selector:.kp-notebook-printable img?src}}",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "clippings",
+			"type": "multitext"
+		},
+		{
+			"name": "description",
+			"value": "Kindleハイライト",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://read.amazon.co.jp/"
+	],
+	"noteNameFormat": "{{selector:h3.kp-notebook-metadata}}",
+	"path": "KindleHighlight"
+}

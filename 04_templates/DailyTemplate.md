@@ -1,3 +1,7 @@
+---
+exercise: 
+study: 
+---
 << [[<% tp.date.now("YYYYMMDD", -7, tp.file.title, "YYYYMMDD") %>]]  < [[<% tp.date.now("YYYYMMDD", -1, tp.file.title, "YYYYMMDD") %>]]  |  [[<% tp.date.now("YYYYMMDD", 1, tp.file.title, "YYYYMMDD") %>]]  >  [[<% tp.date.now("YYYYMMDD", 7, tp.file.title, "YYYYMMDD") %>]] >>
 
 ## メモ

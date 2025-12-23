@@ -1,0 +1,63 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Amazon読書ノート",
+	"behavior": "create",
+	"noteContentFormat": "\n![|300]({{selector:img?data-old-hires|unique|last}})\n\n\n## モチベーションとまとめ\n\n- 読書の目的\n\t- \n- 一言でまとめ\n\t- \n- Next Action\n\t- \n\n",
+	"properties": [
+		{
+			"name": "Aliases",
+			"value": "",
+			"type": "multitext"
+		},
+		{
+			"name": "Tags",
+			"value": "コミック",
+			"type": "multitext"
+		},
+		{
+			"name": "Stars",
+			"value": "3",
+			"type": "number"
+		},
+		{
+			"name": "Purchased",
+			"value": "True",
+			"type": "checkbox"
+		},
+		{
+			"name": "Published",
+			"value": "",
+			"type": "number"
+		},
+		{
+			"name": "Read",
+			"value": "",
+			"type": "date"
+		},
+		{
+			"name": "Author",
+			"value": "{{author}}",
+			"type": "multitext"
+		},
+		{
+			"name": "Cover",
+			"value": "[]({{selector:img?data-old-hires|unique|last}})",
+			"type": "text"
+		},
+		{
+			"name": "External",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "Highlight",
+			"value": "",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://www.amazon.co.jp/"
+	],
+	"noteNameFormat": "{{title}}",
+	"path": ""
+}

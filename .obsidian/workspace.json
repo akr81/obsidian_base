@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "397c966236fc5281",
+    "type": "split",
+    "children": [
+      {
+        "id": "592c53dd73f33fe7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92293e04772fc9ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02_daily/20251201.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20251201"
+            }
+          },
+          {
+            "id": "30e75c55052e3e9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "351ca58fc3428c90",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a7a86675763ef16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe1731af1ab81955",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f80e713bc9808119",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "sec",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2d319193a7a83635",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "4167f306f4392e0d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4d39b6d5672d5b32",
+    "type": "split",
+    "children": [
+      {
+        "id": "af9580136a536744",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f50459a33bf91854",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02_daily/20250703.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 20250703"
+            }
+          },
+          {
+            "id": "9d38da598c9e2256",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "星くん.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 星くん"
+            }
+          },
+          {
+            "id": "a81ad1bd9304e12f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8f3767cbf254e5d0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02_daily/20250708.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 20250708"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 347.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "30e75c55052e3e9d",
+  "lastOpenFiles": [
+    "01_inbox/WebClipper.md",
+    "README.md",
+    "02_daily/20251201.md",
+    "01_inbox/万能プロンプト.md",
+    "01_inbox/翻訳プロンプト.md",
+    "05_focus_sheets/20251228.md",
+    "04_templates/DailyTemplate.md",
+    "03_image/Pasted image 20251223185703.png",
+    "01_inbox/ヒートマップ.md",
+    "02_daily/20251223.md",
+    "02_daily/20251202.md",
+    "01_inbox/YWTM.canvas",
+    "03_image/Pasted image 20251202182543.png",
+    "04_templates/FocusSheet_Template.md",
+    "05_FocusSheet/20251228.md",
+    "05_FocusSheet",
+    "03_image/Pasted image 20251219180354.png",
+    "02_daily/20251219.md",
+    "06_bases/FocusSheets.base",
+    "20251228.md",
+    "05_focus_sheets",
+    "02_daily/20251217.md",
+    "02_daily/20251205.md",
+    "PROJECT_A-300.md",
+    "01_inbox/PROJECT_A-200.md",
+    "01_inbox/PROJECT_A-100.md",
+    "06_bases/TIPS.base",
+    "06_bases/ProjectA.base",
+    "03_image/Pasted image 20251202191148.png",
+    "03_image/Pasted image 20251202185345.png",
+    "03_image/Pasted image 20251202184812.png",
+    "03_image/Pasted image 20251202183844.png",
+    "03_image/Pasted image 20251202182742.png",
+    "04_templates/プロジェクトAチケット.md",
+    "04_templates/FrontMatter.md",
+    "06_bases",
+    "外注請求処理.md",
+    "外注申請.md",
+    "02_daily/20251128.md",
+    "Pasted image 20251128125414.png",
+    "Pasted image 20251128125327.png",
+    "1on1.base",
+    "部長面談_20251127.md",
+    "10_materials/PMBOK概論2025.pdf",
+    "10_materials/企業理念教育資料20251030PM.pdf",
+    "10_materials/050_2024新PM-開発環境.pdf"
+  ]
+}
